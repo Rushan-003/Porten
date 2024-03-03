@@ -3,8 +3,20 @@ body {
     background-color: #0F0F0F;
 }
 
+a {
+
+    color: inherit;
+    text-decoration: none;
+}
+
 header {
     background-color: #1F1F1F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 405px; /* Пересмотреть */
+
+
 }
 
 main {
@@ -12,13 +24,107 @@ main {
     background-position: center;
     background-repeat: no-repeat;
 
+    text-align: center;
+
+    padding: 0px 595px;
+    padding-top: 160px;
 }
 
+section {
+
+}
+
+h1 {
+    font-family: 'Post No Bills Jaffna', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+h2 {
+    font-family: 'Post No Bills Jaffna', sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+}
+
+h3 {
+    font-family: "PT Sans", sans-serif;
+
+    font-weight: 400;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+h4 {
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 36px;
+    text-transform: uppercase;
+
+    margin-bottom: 40px;
+}
+
+hr {
+    width: 120px;
+}
 .header_button {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
     display: flex;
     justify-content: space-between;
+    color: #969696;
+    margin: 0px 405px; /* Пересмотреть */
 }
 
 .header_button-element {
     display: flex;
+}
+
+.header_menu {
+    display: flex;
+
+    
+}
+
+.first_menu-element {
+    border: 4px solid white;
+    margin: 0px 205px;
+}
+
+
+.text {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.section-brends {
+    background-color: #0F0F0F;
+    padding: 0px 405px;
+}
+
+.brends {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product_company {
+    padding: 0px 405px;
+    gap: 23px;
+
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+
+    padding-bottom: 150px;
+    
+}
+
+
+.footer_buttom {
+    margin: 0px 405px;
+    display: flex;
+    justify-content: space-between;
 }
