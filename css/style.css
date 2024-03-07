@@ -1,6 +1,17 @@
+:root {
+    --font-family: "Playfair Display", sans-serif;
+    --second-family: "PT Sans", sans-serif;
+    --third-family: "Post No Bills Jaffna", sans-serif;
+}
+
 body {
     color: white;
     background-color: #0F0F0F;
+}
+
+.container {
+    max-width: 1109px;
+    margin: 0px auto;
 }
 
 a {
@@ -16,7 +27,7 @@ header {
     align-items: center;
     padding: 15px 405px; /* Пересмотреть */
 
-
+    max-width: 1920px;
 }
 
 main {
@@ -26,8 +37,9 @@ main {
 
     text-align: center;
 
-    padding: 0px 595px;
+    padding: 0px auto;
     padding-top: 160px;
+    padding-bottom: 150px;
 }
 
 section {
@@ -64,6 +76,21 @@ h4 {
     margin-bottom: 40px;
 }
 
+h5 {
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+
+    margin: 25px auto 10px auto;
+}
+
+div.product_company p {
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+
 hr {
     width: 120px;
 }
@@ -75,7 +102,8 @@ hr {
     display: flex;
     justify-content: space-between;
     color: #969696;
-    margin: 0px 405px; /* Пересмотреть */
+    margin: 15px 405px; /* Пересмотреть */
+
 }
 
 .header_button-element {
@@ -90,7 +118,12 @@ hr {
 
 .first_menu-element {
     border: 4px solid white;
-    margin: 0px 205px;
+    margin: 0px auto;
+    
+    padding: 93px 68px 94px 67px;
+
+    width: 185px;
+    height: 133px;
 }
 
 
@@ -99,6 +132,85 @@ hr {
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
+}
+
+.main_text {
+    max-width: 730px;
+    max-height: 96px;
+    margin: auto;
+    margin-top: 80px;
+
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+.picture-product {
+    width: 260px;
+    height: 325px;
+    background-color: #191B1C;
+
+    
+    /* padding: 55px 22px 56px 23px; */
+}
+
+.new_season {
+    display: grid;
+    grid-template-columns: 54% 46%;
+}
+
+.new_season_left {
+    margin: 93px 80px;
+}
+
+.hr_2 {
+    margin-bottom: 50px;
+}
+
+.new_season_right {
+    background-image: url(/picture/background-2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 880px 730px;
+    padding-top: 484px;
+}
+
+.collection_2018_right {
+    margin-top: 100px;
+}
+
+.collection_2018 {
+    display: grid;
+    grid-template-columns: 45% 55%;
+}
+
+.collection_2018_left {
+    background-image: url(/picture/background-3.png);
+    background-size: 880px 600px;
+    background-repeat: no-repeat;
+    
+    
+}
+
+.collection_2018_right-text {
+    max-width: 471px;
+    max-height: 173px;
+    margin: 0px auto;
+
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    color: #fff;
+}
+
+.img-1 {
+    padding: 55px 22px 56px 23px;
 }
 
 .section-brends {
@@ -111,15 +223,24 @@ hr {
     justify-content: space-between;
 }
 
-.product_company {
+.product {
+    width: 260px;
+    height: 405px;
+}
+
+.product_company-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product_company-2 {
     padding: 0px 405px;
     gap: 23px;
 
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: 260px 260px 260px 260px;
+    justify-content: space-between;
 
-    padding-bottom: 150px;
-    
 }
 
 
@@ -128,3 +249,78 @@ hr {
     display: flex;
     justify-content: space-between;
 }
+
+.img {
+    padding-right: 10px;
+}
+
+.x-1 {
+    display: flex;
+}
+
+.x-2 {
+    margin-left: 40px;
+}
+.elem_menu {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #969696;
+
+    margin-left: 40px;
+}
+
+.new_collection {
+    padding-top: 120px;
+    padding-bottom: 150px;
+}
+
+.hr_1 {
+    width: 180px;
+}
+
+#button_1 {
+    border: 1px solid #fff;
+    padding: 12px 28px;
+    width: 138px;
+    height: 47px;
+
+    background: none;
+
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+
+#button_2 {
+    border: 1px solid #fff;
+    padding: 12px 28px;
+    width: 311px;
+    height: 47px;
+
+    background: none;
+    color: #fff;
+
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+@media screen and (max-width: 1445px) {
+    header {
+        padding: 15px 20px;
+    }
+
+    .header_button {
+        margin: 15px 20px;
+    }
+}
+
